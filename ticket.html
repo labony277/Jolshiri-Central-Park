@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- <link rel="stylesheet" href="style.scss"/> -->
-
+        <link rel="stylesheet" href="assets/plugins/css/plugins.css">
         <style>
             *,
             *::after {
@@ -115,9 +115,99 @@
                 border-top: 2px dashed #e9ebed;
                 border-radius: 0 0 0.325rem 0.325rem;
             }
+            /* new */
+            .button.button-medium.button-icon {
+    height: 40px;
+    line-height: 43px;
+    width: 43px;
+}
+
+.btn.manage-btn {
+    margin: 0 2px;
+    padding: 10px 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a.btn.btn-gary.manage-btn {
+    background: #f4f5f7;
+    box-shadow: none;
+}
+
+a.btn.btn-blue.manage-btn {
+    background: #2196f3;
+    color: #fff;
+}
+
+a.btn.btn-success.manage-btn {
+    background: #30ab4a;
+    color: #fff;
+}
+
+a.btn.btn-shortlist.manage-btn {
+    background: #353535;
+    color: #fff;
+}
+
+a.btn.btn-shortlist.manage-btn:hover,
+a.btn.btn-shortlist.manage-btn:focus {
+    background: #30ab4a;
+    color: #fff;
+}
+
+a.btn.btn-cancel.manage-btn {
+    background: #f44336;
+    color: #fff;
+}
+
+.job-details .j-type {
+    display: table;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.dashboard-caption .job-details .j-type {
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.job-details .full-time {
+    background: #4caf50;
+}
+
+.job-details .part-time {
+    background: #ff9800;
+}
+
+.job-details .freelancer {
+    background: #2196f3;
+}
+
+.job-details .internship {
+    background: #e91e63;
+}
+.btn {
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 14px 20px;
+    letter-spacing: 0.5px;
+    text-shadow: none;
+    box-shadow: 0 2px 8px rgba(102, 103, 107, 0.15);
+}
+
+            /* nn */
         </style>
     </head>
     <body>
+        <div class="job-buttons">
+            <a href="index.html" class="btn btn-gary manage-btn" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download Resume"><i class="ti-download"></i></a>
+            
+        </div>
         <article class="ticket">
             
             <header class="ticket__wrapper">
@@ -173,11 +263,6 @@
             <br>
            
         </article>
-        <!-- <section class="" style="background-color: white; font-size: 24px; color: green;">
-                
-                <p>Note: We accept digital ticket as well</p>
-                <p>Print/download ticket</p>
-               
-            </section> -->
+       
     </body>
 </html>
